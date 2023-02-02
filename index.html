@@ -32,19 +32,26 @@
 
   <body>
     <section id="page" class="content">
-      <h1>Pokedex App</h1>
+      <h1>Pokedex</h1>
 
       <ol id="pokemonList" class="pokemons"></ol>
 
       <div class="pagination">
-        <button id="loadMoreButton" type="button">Mais</button>
+        <button id="loadMoreButton" type="button">Load More</button>
       </div>
     </section>
+
+    <!-- Loanding -->
+    <center>
+      <div class="pop-out-loading fade-out-loading" id="loading"></div>
+      <div class="pop-out-loading fade-out-loading" id="text-loading"></div>
+    </center>
 
     <!-- Nosso JS -->
     <script src="/assets/js/modal.js"></script>
     <script src="/assets/js/pokemon-model.js"></script>
     <script src="/assets/js/poke-api.js"></script>
+    <script src="/assets/js/details.js"></script>
     <script src="/assets/js/main.js"></script>
   </body>
 </html>
